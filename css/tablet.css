@@ -1,0 +1,53 @@
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+  .hero {
+    padding-top: 112px;
+    padding-bottom: 204px;
+  }
+  .hero-title {
+    font-size: 56px;
+  }
+  section {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  /* BENEFITS  */
+  .benefits-content {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .section-content {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .benefit-icon {
+    display: none;
+  }
+
+  /* DOING  */
+
+  /* OUR TEAM  */
+
+  .section-content.team {
+    display: flex;
+    text-align: center;
+  }
+
+  .our-team {
+    margin-top: 0;
+    padding-bottom: 120px;
+  }
+
+  .team-content {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
